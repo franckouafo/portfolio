@@ -1,0 +1,96 @@
+
+
+body{
+    color: rgb(31, 30, 30);
+}
+
+
+.skill{
+    /* font-size: 90px; */
+    color: #F7B617;
+    font-weight: bold;
+}
+
+
+span.moi{
+    color: #F7B617;
+}
+
+
+/* Paragraphes en bleu par défaut */
+
+
+.apropos{
+    margin-top: 20px;
+    
+}
+
+
+.dateskill{
+    display: flex;
+    margin: auto;
+}
+.dateskill p {
+    background-color: rgb(124, 129, 129);
+    padding: 5px 10px;
+    width: 20%;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.dateskill h5{
+    width: 70%;
+}
+
+.img1{
+    width: 101px;
+    height: 216px ;
+    
+}
+
+.img2{
+
+}
+
+
+
+
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width: 992px) {
+    .imguser{
+     
+        width: 400px;
+        height: 600px;
+    }
+    .info{
+        margin: auto;
+    }
+}
+
+    @media screen and (max-width: 768px) {
+        .imguser{
+           margin: auto;
+            width: 400px;
+            height: 600px;
+        }
+
+        /* .dateskill{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        } */
+
+        .info{
+            margin-top: 55px;
+        
+        }
+
+       
+    }
+    
+
+   
+
+
+
